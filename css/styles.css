@@ -8,6 +8,7 @@
   --color-section-background: #2f303a;
   --color-section-background2: #f5f4fa;
   --color-liane-card: #eeeeee;
+  --hero-gradient: rgba(47, 48, 58, 0.4);
 }
 
 /* color: #2196f3; */
@@ -144,6 +145,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   border-bottom: 1px solid #ececec;
+
 }
 
 .head-container {
@@ -199,10 +201,20 @@ address {
 
 /* --------------------hero ---------------------*/
 .hero {
+  min-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  background: var(--color-section-background);
+  background-color: var(--color-section-background);
   text-align: center;
+  background-image: linear-gradient(to right,
+      var(--hero-gradient),
+      var(--hero-gradient)), url(../images/bghero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .hero-title {
