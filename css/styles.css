@@ -338,6 +338,8 @@ address {
   text-align: center;
 }
 
+/* ==============social========== */
+
 .networks {
   display: flex;
   gap: 10px;
@@ -359,6 +361,10 @@ address {
   color: var(--primary-whait-color);
   background-color: var(--accent-color);
 }
+
+/* .networks-link:hover .networks-icon {
+  fill: #ffffff;
+} */
 
 /* ---------------------clients---------- */
 
