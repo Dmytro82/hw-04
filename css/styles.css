@@ -257,12 +257,7 @@ address {
   padding-bottom: 25px;
   margin-bottom: 30px;
   border-radius: 4px;
-  color: var(--title-text-color);
   background: var(--color-section-background2);
-}
-
-.quality-icon:hover {
-  background: var(--accent-color);
 }
 
 .quality-title {
@@ -383,8 +378,7 @@ address {
   justify-content: center;
   align-items: center;
 
-  /*
-   display: block;
+  /*   display: block;
   padding: 16px 32px; */
 
   width: 170px;
